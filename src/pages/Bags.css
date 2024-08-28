@@ -1,0 +1,33 @@
+.bags{
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 2rem;
+}
+
+.bag__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.bagShow > img{ 
+    object-fit: contain;
+    height: 200px;
+}
+
+.bagShow{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media(max-width: 768px){
+    .bag__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

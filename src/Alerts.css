@@ -1,0 +1,12 @@
+.alert{
+    max-width: 600px;
+    margin: auto;
+    padding: 0.7rem;
+}
+.alert-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.alert-red{
+    background-color: rgb(245, 161, 161);
+}
