@@ -1,0 +1,5 @@
+export const SEARCH_PRODUCTS = 'SEARCH_PRODUCTS'
+export const SET_PRODUCT = 'SET_PRODUCT'
+export const CLEAR_PRODUCTS = 'CLEAR_PRODUCTS'
+export const SHOW_ALERT = 'SHOW_ALERT'
+export const REMOVE_ALERT = 'REMOVE_ALERT'
