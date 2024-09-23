@@ -19,8 +19,6 @@ function App() {
   const [product, setProduct ] = useState([]);
   const [alert, setAlert] = useState(null)
 
-  
-
   const searchProducts = (text) =>{
      const result = bagCatalogue.filter(item => {
       const searchText = text.slice(0, 3).toLowerCase();

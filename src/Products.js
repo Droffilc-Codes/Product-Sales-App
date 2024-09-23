@@ -15,7 +15,7 @@ function importAll(r) {
 const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
 
 function Products({product}) {
-
+console.log(product)
   const [curPage, setCurPage] = useState(1);
 
   const resultsPerPage = 9;
